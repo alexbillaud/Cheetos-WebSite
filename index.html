@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+  <meta charset="UTF-8">
   <title>Cheetos Website</title>
-</head>
-<body style="background-color: orange; text-align: center;">
 
-  <h1>🔥 Bienvenue sur la FanPage de Cheetos 🔥</h1>
-  <img https://photos.app.goo.gl/XXAnttx9ndXVZpd87>
-  <h2>Ses snacks préférés</h2>
-  <ul>
-    <li>Friandises au fromage</li>
-    <li>Oiseaux</li>
-  </ul>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, orange, red);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.2);
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 500px;
+    }
+
+    button {
+      background: black;
+      color: orange;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: white;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>🔥 Cheetos World 🔥</header>
+
+<nav>
+  <a href="#">Accueil</a>
+  <a href="#">Produits</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="card">
+  <h2>Bienvenue !!!</h2>
+  <p>Le site des fans de Cheetos !</p>
+</div>
+  <img src=https://www.instagram.com/p/DXwW1LfDT_X/>
+
+<div class="card">
+  <h2>Snack préféré</h2>
+  <p>Friandises au fromage</p>
+  <button onclick="alert('Excellent choix 😎')">Cliquer ici</button>
+</div>
 
 </body>
 </html>
