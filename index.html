@@ -57,6 +57,24 @@
       background: white;
       color: red;
     }
+
+    /* 👇 NOUVEAU : galerie */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 
@@ -73,9 +91,20 @@
 
 <div class="card">
   <h2>Bienvenue !!!</h2>
-  <p> Toi fan du Roi Cheetos 1er du nom !</p>
+  <p>Toi fan du Roi Cheetos 1er du nom !</p>
 </div>
-  <img src=https://www.instagram.com/p/DXwW1LfDT_X/>
+
+<!-- 👇 NOUVELLE SECTION PHOTOS -->
+<div class="card">
+  <h2>📸 Photos du King</h2>
+
+  <div class="gallery">
+    <img src="chat1.jpg">
+    <img src="chat2.jpg">
+    <img src="chat3.jpg">
+  </div>
+
+</div>
 
 <div class="card">
   <h2>Snacks préférés</h2>
