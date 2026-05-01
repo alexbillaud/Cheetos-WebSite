@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Cheetos Website</title>
+  <title>Photos du King</title>
 
   <style>
     body {
@@ -31,42 +31,15 @@
       font-weight: bold;
     }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.1);
-      margin: 30px auto;
-      padding: 20px;
-      border-radius: 15px;
-      width: 80%;
-      max-width: 500px;
-    }
-
-    button {
-      background: black;
-      color: orange;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: white;
-      color: red;
-    }
-
-    /* 👇 NOUVEAU : galerie */
     .gallery {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      padding: 20px;
     }
 
     .gallery img {
-      width: 200px;
+      width: 250px;
       margin: 10px;
       border-radius: 15px;
       transition: transform 0.3s;
@@ -80,28 +53,15 @@
 
 <body>
 
-<header>🔥 Cheetos World 🔥</header>
+<header>📸 Photos du King 👑</header>
 
 <nav>
-  <a href="#">Meow</a>
-  <a href="#">Photos du king</a>
-  <a href="#">Réseaux sociaux</a>
-  <a href="#">Cagnottes</a>
+  <a href="index.html">Accueil</a>
+  <a href="photos.html">Photos du king</a>
 </nav>
 
-<div class="card">
-  <h2>Bienvenue !!!</h2>
-  <p>Toi fan du Roi Cheetos 1er du nom !</p>
-</div>
-
-<!-- 👇 NOUVELLE SECTION PHOTOS -->
-
-<div class="card">
-  <h2>Snacks préférés</h2>
-  <p>Friandises au fromage</p>
-  <p>Pastèque</p>
-  <p>Oiseaux</p>
-  <button onclick="alert('Cheetos t'aimes encore plus')">Boop</button>
+<div class="gallery">
+  <img src="bb chat.jpg">
 </div>
 
 </body>
